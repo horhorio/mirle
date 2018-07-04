@@ -150,7 +150,7 @@ if(($CURRENT_USER)AND($_SESSION['arUser'])){
 	}
 	
 
-	if(($BIRTHDATE_MONTH >= $date_from)AND($BIRTHDATE_MONTH <= $date_to)AND($BIRTHDATE_MONTH)){
+	/*if(($BIRTHDATE_MONTH >= $date_from)AND($BIRTHDATE_MONTH <= $date_to)AND($BIRTHDATE_MONTH)){
 		
 		$amountText = "В честь Вашего дня рождения скидка <strong class='bender-font'>".$BIRTHDATE_DISCONT."%</strong>";
 		
@@ -169,7 +169,7 @@ if(($CURRENT_USER)AND($_SESSION['arUser'])){
 				$amountText = "Ваша скидка <strong class='bender-font'>".$UF_DISCONT."%</strong> максимальная, сумма накоплений <strong class='bender-font'>".number_format($UF_AMOUNT, 0, '.', ' ')." р.</strong>";
 			//echo "<pre>"; print_r($_SESSION['arUser']); echo "</pre>";
 		}
-	}
+	}*/
 }
 if(!$_SESSION['dataCity']){
 	if (!empty($_SERVER['HTTP_CLIENT_IP'])):
